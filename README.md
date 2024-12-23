@@ -12,3 +12,10 @@ It looks like the version I have isn't for sale any more. The 'upgraded version'
 * Raspberry Pi Pico Explorer board: https://shop.pimoroni.com/products/pico-explorer-base?variant=32369514315859
 * Male to male cables: https://shop.pimoroni.com/products/jumper-jerky?variant=304798331
 
+# Software:
+This repository contains:
+* Example code in circuitpython and micropython
+* Datasheets
+* 3d models in blender
+* Fritzing models to create circuit diagrams
+
