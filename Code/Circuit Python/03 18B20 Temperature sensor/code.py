@@ -11,9 +11,9 @@ Adventures in Electronics
      
 * Description:
  Reads temperature ('C) every second and displays on screen
- Spins motor 1 if temperature is less than 16.
+ Spins motor 1 if temperature is less than 22'C.
 * Buttons:
- A: auto mode (spins if temperature is less than 16)
+ A: auto mode (spins if temperature is less than 22'C)
  B: manual mode (use X and Y to change speed)
  X: increase speed by .1 in manual mode
  Y: decrease speed by .1 in manual mode
@@ -47,9 +47,9 @@ else:
         print(t)
         picoexplorer.set_line(3, t)
         
-        # switch on the motor if temperature is below 16'
+        # switch on the motor if temperature is below 22'
         if mode == "auto":
-            if temperature_c < 16:
+            if temperature_c < 22:
                 speed = .3
             else:
                 speed = 0
