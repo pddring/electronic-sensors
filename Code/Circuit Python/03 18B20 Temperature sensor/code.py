@@ -25,21 +25,27 @@ devices = ow_bus.scan()
 
 if len(devices) == 0:
     print("No devices found")
-    exit()
-id = "".join([hex(i)[2:] for i in devices[0].rom])
-print("ROM = {} \tFamily = 0x{:02x}".format(id, devices[0].family_code))
+else:
+    id = "".join([hex(i)[2:] for i in devices[0].rom])
+    print("ROM = {} \tFamily = 0x{:02x}".format(id, devices[0].family_code))
 
-picoexplorer.init()
+    picoexplorer.init()
 
-# only connect to the first device found
-ds18b20 = adafruit_ds18x20.DS18X20(ow_bus, devices[0])
+    # only connect to the first device found
+    ds18b20 = adafruit_ds18x20.DS18X20(ow_bus, devices[0])
 
-while True:
-    # read temperature
-    temperature_c = ds18b20.temperature
-    t = 'Temp: {0:0.3f} °C'.format(temperature_c)
-    print(t)
-    picoexplorer.set_line(3, t)
-    picoexplorer.set_line(4, id)
-    # No faster than 10Hz
-    time.sleep(.1)
+    while True:
+        # read temperature
+        temperature_c = ds18b20.temperature
+        t = 'Temp: {0:0.3f} °C'.format(temperature_c)
+        print(t)
+        picoexplorer.set_line(3, t)
+        picoexplorer.set_line(4, id)
+        
+        # switch on the motor if temperature is below 16'
+        if temperature_c < 16:
+            picoexplorer.motors[0].throttle = .3
+        else:
+            picoexplorer.motors[0].throttle = 0
+        # No faster than 10Hz
+        time.sleep(.1)
