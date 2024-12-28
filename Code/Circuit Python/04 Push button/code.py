@@ -1,3 +1,4 @@
+
 """
 Adventures in Electronics
 * Firmware:
@@ -23,7 +24,9 @@ import picoexplorer
 import time
 import random
 import board
+import pwmio
 from digitalio import DigitalInOut, Direction, Pull
+from adafruit_motor import servo
 
 TIME_TOO_SLOW = 2
 TIME_MAX_WAIT = 5
@@ -33,15 +36,22 @@ btn = DigitalInOut(board.GP0)
 btn.direction = Direction.INPUT
 btn.pull = Pull.UP
 
+
+# Set up servo
+pwm = pwmio.PWMOut(board.GP1, duty_cycle=2 ** 15, frequency=50)
+trapdoor_servo = servo.Servo(pwm)
+
 # Open Lego servo trapdoor of doom
 def open_trapdoor():
-    print("Opening trapdoor")
+    trapdoor_servo.angle = 0
     time.sleep(1)
+    trapdoor_servo.angle = 90
 
 # Make sure trapdoor is closed
 def close_trapdoor():
-    print("Closing trapdoor")
-    time.sleep(1)
+    trapdoor_servo.angle = 180
+    time.sleep(2)
+    trapdoor_servo.angle = 90
     
 picoexplorer.init()
 close_trapdoor()
