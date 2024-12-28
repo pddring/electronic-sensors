@@ -5,13 +5,13 @@ Adventures in Electronics
 * Hardware:
  - Raspberry pi pico in pico explorer board
  - Servo
-     Pin1 (Orange	=> GP0)
+     Pin1 (Orange	=> GP1)
      Pin2 (Red		=> 3v3)
      Pin3 (Brown	=> GND)
- - Push switch
-     Pin1 (GND 		=> GND)
-     Pin2 (VCC		=> 3v3)
-     Pin3 (S		=> GP1)
+ - Push switch (note inverse polarity)
+     Pin1 (GND 		=> 3v3)
+     Pin2 (VCC		=> GND)
+     Pin3 (S		=> GP0)
      
 * Description:
  Reaction timer trap door of doom:
@@ -22,6 +22,16 @@ Adventures in Electronics
 import picoexplorer
 import time
 import random
+import board
+from digitalio import DigitalInOut, Direction, Pull
+
+TIME_TOO_SLOW = 2
+TIME_MAX_WAIT = 5
+
+# Set up button
+btn = DigitalInOut(board.GP0)
+btn.direction = Direction.INPUT
+btn.pull = Pull.UP
 
 # Open Lego servo trapdoor of doom
 def open_trapdoor():
@@ -48,7 +58,7 @@ while True:
     while duration < delay:
         time.sleep(0.05)
         duration = time.monotonic() - start_time
-        if not picoexplorer.buttons["A"].value:
+        if btn.value:
             picoexplorer.set_line(4, "Cheat!")
             open_trapdoor()
             
@@ -58,12 +68,12 @@ while True:
     
     # Time how long it takes to press button
     start_time = time.monotonic()
-    while picoexplorer.buttons["A"].value:
+    while not btn.value:
         time.sleep(0.05)
         duration = time.monotonic() - start_time
         
         # don't wait for too long
-        if duration > 2:
+        if duration > TIME_MAX_WAIT:
             break
 
     # display time
@@ -71,7 +81,7 @@ while True:
     picoexplorer.set_line(3, "Time: {:.2f}s".format(duration))
 
     # open the trapdoor if they take too long
-    if duration > 0.5:
+    if duration > TIME_TOO_SLOW:
         picoexplorer.set_line(4, "Too slow!")
         open_trapdoor()
         close_trapdoor()
