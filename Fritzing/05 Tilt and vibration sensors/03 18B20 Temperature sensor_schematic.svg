@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 15.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.2"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="51.807858"
+   height="44.700001"
+   viewBox="0 0 51.807856 44.700001"
+   xml:space="preserve"
+   sodipodi:docname="03 18B20 Temperature sensor_schematic.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs20092">
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+	
+		
+	
+	
+	
+	
+	
+
+		
+		
+		
+		
+			
+		
+			
+		
+			
+		
+			
+		
+		
+		
+	</defs><sodipodi:namedview
+   id="namedview20090"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   showgrid="false"
+   inkscape:zoom="6.5707961"
+   inkscape:cx="-19.404041"
+   inkscape:cy="8.7508422"
+   inkscape:window-width="1920"
+   inkscape:window-height="1129"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1" />
+
+
+<rect
+   id="part_symbol"
+   x="8.0335941"
+   y="7.4275336"
+   fill="#ffffff"
+   stroke="#000000"
+   stroke-width="0.649881"
+   stroke-linecap="round"
+   width="43.449322"
+   height="29.846622" /><g
+   id="g20009"
+   transform="translate(0.95875421,-27.65)">
+			
+				<line
+   fill="none"
+   stroke="#555555"
+   stroke-width="0.7"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   x1="28.799999"
+   y1="64.799004"
+   x2="28.799999"
+   y2="72"
+   id="line20007" />
+		</g><line
+   fill="none"
+   stroke="#555555"
+   stroke-width="0.7"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   x1="0.34999999"
+   y1="24.224749"
+   x2="7.5499997"
+   y2="24.224749"
+   id="line20015" /><g
+   id="g20021"
+   transform="translate(0.95875421,0.34999999)">
+			
+				<line
+   fill="none"
+   stroke="#555555"
+   stroke-width="0.7"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   x1="28.799999"
+   y1="7.2010002"
+   x2="28.799999"
+   y2="0"
+   id="line20019" />
+		</g><text
+   fill="#555555"
+   font-family="DroidSans"
+   font-size="3px"
+   id="text20038"
+   x="31.121153"
+   y="4.223001">3</text><text
+   fill="#555555"
+   font-family="DroidSans"
+   font-size="3px"
+   id="text20040"
+   x="31.121153"
+   y="41.4599">1</text><text
+   fill="#555555"
+   font-family="DroidSans"
+   font-size="3px"
+   id="text20046"
+   x="3.1242001"
+   y="22.835749">2</text><text
+   fill="#555555"
+   font-family="DroidSans"
+   font-size="4.5px"
+   id="text20061"
+   x="25.569353"
+   y="34.8349">Gnd</text><text
+   fill="#555555"
+   font-family="DroidSans"
+   font-size="4.5px"
+   id="text20061-0"
+   x="9.1441822"
+   y="25.477232"
+   style="font-size:4.5px;font-family:DroidSans;fill:#555555">D<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.66667px;font-family:DroidSans;-inkscape-font-specification:'DroidSans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+   id="tspan4446">Q</tspan></text><text
+   fill="#555555"
+   font-family="DroidSans"
+   font-size="4.5px"
+   id="text20063"
+   x="26.470753"
+   y="12.885202">V</text><text
+   fill="#555555"
+   font-family="DroidSans"
+   font-size="4.5px"
+   id="text20065"
+   x="28.891653"
+   y="12.885202"
+   style="font-size:4.5px;font-family:DroidSans;fill:#555555"><tspan
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.66667px;font-family:DroidSans;-inkscape-font-specification:'DroidSans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+     id="tspan4444">DD</tspan></text><text
+   fill="#555555"
+   font-family="DroidSans"
+   font-size="4.5px"
+   id="text20067"
+   x="30.975554"
+   y="-15.114799" /><text
+   font-family="DroidSans"
+   font-size="6px"
+   id="text20084"
+   x="21.481953"
+   y="19.7689">18B20 </text><text
+   font-family="DroidSans"
+   font-size="6px"
+   id="text20086"
+   x="32.531258"
+   y="26.969103"><tspan
+     sodipodi:role="line"
+     id="tspan20313"
+     x="32.531258"
+     y="26.969103"
+     style="text-align:center;text-anchor:middle">Temperature</tspan><tspan
+     sodipodi:role="line"
+     x="32.531258"
+     y="34.469101"
+     id="tspan20317"
+     style="text-align:center;text-anchor:middle" /></text>
+</svg>
