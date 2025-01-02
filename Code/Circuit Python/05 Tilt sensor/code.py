@@ -14,6 +14,7 @@ import board
 import time
 import picoexplorer
 import keypad
+import digitalio
 picoexplorer.init()
 
 picoexplorer.i2c.deinit()
@@ -27,86 +28,53 @@ cols_pins = (board.GP3, board.GP1, board.GP6)
 keys = keypad.KeyMatrix(row_pins=rows_pins, column_pins=cols_pins)
 KEYS = "123456789*0#"
 
+# Replace with your own pin
 pin_correct = "1234"
 
-# Define a list of tones/music notes to play.
-NOTES = {
-    "C": 261,
-    "C#": 277,
-    "Db": 277,
-    "D": 294,
-    "D#": 311,
-    "Eb": 311,
-    "E": 330,
-    "F": 349,
-    "F#": 370,
-    "Gb": 370,
-    "G": 392,
-    "G#": 415,
-    "Ab": 415,
-    "A": 440,
-    "A#": 466,
-    "Bb": 466,
-    "B": 494
-    }
+# Set up tilt switch
+switch = digitalio.DigitalInOut(board.GP0)
+switch.direction = digitalio.Direction.INPUT
+switch.pull = digitalio.Pull.DOWN
 
-MAX_VOLUME = 2**15
-ON = MAX_VOLUME
-OFF = 0
-# mario tune :)
+# mario tune in musical notes and rests
 tune = "E E _ E _ C E _ G"
 
 # Create piezo buzzer PWM output.
 buzzer = pwmio.PWMOut(board.GP21, variable_frequency=True)
+picoexplorer.play_tune(buzzer, tune, duty_cycle=5)
 
-# play a tune (e.g. "E E _ E _ C E _ G")  on a pwm pin (buzzer) 
-def play_tune(buzzer, tune, time_each_note=0.1, time_between_notes=0.01, duty_cycle=2**15):
-    # Main loop will go through each tone in order up and down.
-    notes = tune.split(" ")
-    for note in notes:
-        # Play tones going from start to end of list.
-        note_length = note[-1]
-        if note_length in "0123456789":
-            note_length = int(note_length)
-            note_name = note[0:-1]
-        else:
-            note_length = 1
-            note_name = note
-        note_frequency = 0
-        
-        # _ means rest
-        if note_name != "_":
-            note_frequency = NOTES[note_name]
-            buzzer.frequency = note_frequency * 2
-            buzzer.duty_cycle = duty_cycle
-        time.sleep(time_each_note * note_length)  
-        buzzer.duty_cycle = 0
-        time.sleep(time_between_notes)
-
-play_tune(buzzer, tune, duty_cycle=5)
 pin = ""
 alarm_set = True
-
+previous_switch_value = switch.value
 while True:
-    if alarm_set:
-        picoexplorer.set_line(3, "Alarm active")
-    else:
-        picoexplorer.set_line(3, "Alarm disabled")
-        
+    # check if keypad key is pressed
     e = keys.events.get()
     if e and e.pressed:
         pin += KEYS[e.key_number]
+        
+        # Assume pin has 4 digits - check if correct
         if len(pin) == 4:
             if pin == pin_correct:
                 alarm_set = False
-                play_tune(buzzer, "C G")
+                picoexplorer.play_tune(buzzer, "C G")
             else:
                 alarm_set = True
-                play_tune(buzzer, "G C")
+                picoexplorer.play_tune(buzzer, "G C")
             pin = ""
         else:
-            play_tune(buzzer, "C")
+            picoexplorer.play_tune(buzzer, "C")
+        previous_switch_value = switch.value
+            
+    # Update alarm status
+    if alarm_set:
+        picoexplorer.set_line(3, "Alarm active")
+        if switch.value != previous_switch_value:
+            picoexplorer.set_line(3, "ALARM!")
+            picoexplorer.play_tune(buzzer, "B " * 20)
+            previous_switch_value = switch.value
+    else:
+        picoexplorer.set_line(3, "Alarm disabled")
+        previous_switch_value = switch.value
     pin_masked = "*" * len(pin)
     picoexplorer.set_line(4, "Pin: [{:4}]".format(pin_masked))
     time.sleep(0.1)
-    
