@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Fritzing (https://fritzing.org/) -->
+
+<svg
+   height="2.2930748in"
+   version="1.2"
+   viewBox="0 0 131.27133 165.10161"
+   width="1.8232172in"
+   x="0in"
+   y="0in"
+   id="svg1054"
+   sodipodi:docname="Keypad_schematic.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1058" />
+  <sodipodi:namedview
+     id="namedview1056"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="in"
+     showgrid="false"
+     inkscape:zoom="2.0887671"
+     inkscape:cx="88.808369"
+     inkscape:cy="104.60716"
+     inkscape:window-width="1920"
+     inkscape:window-height="1129"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g1047" />
+  <g
+     partID="855201610"
+     id="g1052"
+     transform="translate(-18.425519,-7.8116552)">
+    <g
+       transform="translate(0,-148.819)"
+       id="g1050">
+      <g
+         id="g1047">
+        <g
+           transform="rotate(-90)"
+           id="g967">
+          <rect
+             fill="none"
+             height="106.299"
+             id="rect10403"
+             stroke="#000000"
+             stroke-dasharray="none"
+             stroke-opacity="1"
+             stroke-width="1.75662"
+             style="stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4"
+             width="127.559"
+             x="-297.638"
+             y="42.519699" />
+        </g>
+        <path
+           d="M 21.2598,233.858 H 42.5196"
+           fill="none"
+           id="path10449"
+           stroke="#000000"
+           stroke-dasharray="none"
+           stroke-opacity="1"
+           stroke-width="2.4"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;marker:none;enable-background:accumulate" />
+        <path
+           d="M 21.2598,212.598 H 42.5196"
+           fill="none"
+           id="path10453"
+           stroke="#000000"
+           stroke-dasharray="none"
+           stroke-opacity="1"
+           stroke-width="2.4"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;marker:none;enable-background:accumulate" />
+        <path
+           d="M 42.5197,191.339 H 21.2599"
+           fill="none"
+           id="path10461"
+           stroke="#000000"
+           stroke-dasharray="none"
+           stroke-opacity="1"
+           stroke-width="2.4"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;marker:none;enable-background:accumulate" />
+        <rect
+           fill="none"
+           height="5.6692901"
+           id="connector1pin"
+           stroke="none"
+           width="5.6692901"
+           x="18.4252"
+           y="188.504" />
+        <rect
+           fill="none"
+           height="5.6692901"
+           id="connector2pin"
+           stroke="none"
+           width="5.6692901"
+           x="18.4252"
+           y="209.76401" />
+        <rect
+           fill="none"
+           height="5.6692901"
+           id="connector3pin"
+           stroke="none"
+           width="5.6692901"
+           x="18.4252"
+           y="231.024" />
+        <path
+           d="M 21.2598,255.119 H 42.5196"
+           fill="none"
+           id="path5285"
+           stroke="#000000"
+           stroke-dasharray="none"
+           stroke-opacity="1"
+           stroke-width="2.4"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;marker:none;enable-background:accumulate" />
+        <rect
+           fill="none"
+           height="5.6692901"
+           id="connector4pin"
+           stroke="none"
+           width="5.6692901"
+           x="18.4252"
+           y="252.285" />
+        <path
+           d="m 85.0394,297.638 v 21.2598"
+           fill="none"
+           id="path5291"
+           stroke="#000000"
+           stroke-dasharray="none"
+           stroke-opacity="1"
+           stroke-width="2.8"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;marker:none;enable-background:accumulate" />
+        <path
+           d="m 106.299,297.638 v 21.2598"
+           fill="none"
+           id="path5293"
+           stroke="#000000"
+           stroke-dasharray="none"
+           stroke-opacity="1"
+           stroke-width="2.8"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;marker:none;enable-background:accumulate" />
+        <path
+           d="m 127.559,297.638 v 21.2598"
+           fill="none"
+           id="path5295"
+           stroke="#000000"
+           stroke-dasharray="none"
+           stroke-opacity="1"
+           stroke-width="2.8"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;marker:none;enable-background:accumulate" />
+        <path
+           d="M 58.1102,191.339 H 127.559"
+           fill="none"
+           id="path5927"
+           stroke="#000000"
+           stroke-dasharray="none"
+           stroke-opacity="1"
+           stroke-width="0.463586"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;marker:none;enable-background:accumulate" />
+        <path
+           d="M 58.1102,212.598 H 127.559"
+           fill="none"
+           id="path5929"
+           stroke="#000000"
+           stroke-dasharray="none"
+           stroke-opacity="1"
+           stroke-width="0.463586"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;marker:none;enable-background:accumulate" />
+        <path
+           d="M 58.1102,233.858 H 127.559"
+           fill="none"
+           id="path5931"
+           stroke="#000000"
+           stroke-dasharray="none"
+           stroke-opacity="1"
+           stroke-width="0.463586"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;marker:none;enable-background:accumulate" />
+        <path
+           d="M 58.1102,255.118 H 127.559"
+           fill="none"
+           id="path5933"
+           stroke="#000000"
+           stroke-dasharray="none"
+           stroke-opacity="1"
+           stroke-width="0.463586"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;marker:none;enable-background:accumulate" />
+        <path
+           d="m 127.559,191.339 v 90.7087"
+           fill="none"
+           id="path5935"
+           stroke="#000000"
+           stroke-dasharray="none"
+           stroke-opacity="1"
+           stroke-width="0.471405"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;marker:none;enable-background:accumulate" />
+        <path
+           d="m 106.299,191.339 v 90.7087"
+           fill="none"
+           id="path5937"
+           stroke="#000000"
+           stroke-dasharray="none"
+           stroke-opacity="1"
+           stroke-width="0.471405"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;marker:none;enable-background:accumulate" />
+        <path
+           d="m 85.0394,191.339 v 90.7087"
+           fill="none"
+           id="path5939"
+           stroke="#000000"
+           stroke-dasharray="none"
+           stroke-opacity="1"
+           stroke-width="0.471405"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;marker:none;enable-background:accumulate" />
+        <rect
+           fill="none"
+           height="5.6692901"
+           id="connector5pin"
+           stroke="none"
+           width="5.6692901"
+           x="82.204697"
+           y="316.06299" />
+        <rect
+           fill="none"
+           height="5.6692901"
+           id="connector6pin"
+           stroke="none"
+           width="5.6692901"
+           x="103.465"
+           y="316.06299" />
+        <rect
+           fill="none"
+           height="5.6692901"
+           id="connector7pin"
+           stroke="none"
+           width="5.6692901"
+           x="124.724"
+           y="316.06299" />
+        <path
+           d="m 93.5433,191.339 a 8.50395,8.50395 0 1 1 -17.0079,0 8.50395,8.50395 0 1 1 17.0079,0 z"
+           fill="#ffffff"
+           fill-opacity="1"
+           id="path5817"
+           stroke="#000000"
+           stroke-dasharray="none"
+           stroke-opacity="1"
+           stroke-width="1.4"
+           style="stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4" />
+        <g
+           transform="translate(21.543)"
+           id="g992">
+          <path
+             d="m 93.5433,191.339 a 8.50395,8.50395 0 1 1 -17.0079,0 8.50395,8.50395 0 1 1 17.0079,0 z"
+             fill="#ffffff"
+             fill-opacity="1"
+             id="path5819"
+             stroke="#000000"
+             stroke-dasharray="none"
+             stroke-opacity="1"
+             stroke-width="1.4"
+             style="stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4" />
+        </g>
+        <g
+           transform="translate(42.5195)"
+           id="g995">
+          <path
+             d="m 93.5433,191.339 a 8.50395,8.50395 0 1 1 -17.0079,0 8.50395,8.50395 0 1 1 17.0079,0 z"
+             fill="#ffffff"
+             fill-opacity="1"
+             id="path5822"
+             stroke="#000000"
+             stroke-dasharray="none"
+             stroke-opacity="1"
+             stroke-width="1.4"
+             style="stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4" />
+        </g>
+        <g
+           transform="translate(0,21.26)"
+           id="g998">
+          <path
+             d="m 93.5433,191.339 a 8.50395,8.50395 0 1 1 -17.0079,0 8.50395,8.50395 0 1 1 17.0079,0 z"
+             fill="#ffffff"
+             fill-opacity="1"
+             id="path5824"
+             stroke="#000000"
+             stroke-dasharray="none"
+             stroke-opacity="1"
+             stroke-width="1.4"
+             style="stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4" />
+        </g>
+        <g
+           transform="translate(21.543,21.26)"
+           id="g1001">
+          <path
+             d="m 93.5433,191.339 a 8.50395,8.50395 0 1 1 -17.0079,0 8.50395,8.50395 0 1 1 17.0079,0 z"
+             fill="#ffffff"
+             fill-opacity="1"
+             id="path5826"
+             stroke="#000000"
+             stroke-dasharray="none"
+             stroke-opacity="1"
+             stroke-width="1.4"
+             style="stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4" />
+        </g>
+        <g
+           transform="translate(42.5195,21.26)"
+           id="g1004">
+          <path
+             d="m 93.5433,191.339 a 8.50395,8.50395 0 1 1 -17.0079,0 8.50395,8.50395 0 1 1 17.0079,0 z"
+             fill="#ffffff"
+             fill-opacity="1"
+             id="path5828"
+             stroke="#000000"
+             stroke-dasharray="none"
+             stroke-opacity="1"
+             stroke-width="1.4"
+             style="stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4" />
+        </g>
+        <g
+           transform="translate(0,42.5197)"
+           id="g1007">
+          <path
+             d="m 93.5433,191.339 a 8.50395,8.50395 0 1 1 -17.0079,0 8.50395,8.50395 0 1 1 17.0079,0 z"
+             fill="#ffffff"
+             fill-opacity="1"
+             id="path5830"
+             stroke="#000000"
+             stroke-dasharray="none"
+             stroke-opacity="1"
+             stroke-width="1.4"
+             style="stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4" />
+        </g>
+        <g
+           transform="translate(21.543,42.5197)"
+           id="g1010">
+          <path
+             d="m 93.5433,191.339 a 8.50395,8.50395 0 1 1 -17.0079,0 8.50395,8.50395 0 1 1 17.0079,0 z"
+             fill="#ffffff"
+             fill-opacity="1"
+             id="path5832"
+             stroke="#000000"
+             stroke-dasharray="none"
+             stroke-opacity="1"
+             stroke-width="1.4"
+             style="stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4" />
+        </g>
+        <g
+           transform="translate(42.5195,42.5197)"
+           id="g1013">
+          <path
+             d="m 93.5433,191.339 a 8.50395,8.50395 0 1 1 -17.0079,0 8.50395,8.50395 0 1 1 17.0079,0 z"
+             fill="#ffffff"
+             fill-opacity="1"
+             id="path5834"
+             stroke="#000000"
+             stroke-dasharray="none"
+             stroke-opacity="1"
+             stroke-width="1.4"
+             style="stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4" />
+        </g>
+        <g
+           transform="translate(0,63.7797)"
+           id="g1016">
+          <path
+             d="m 93.5433,191.339 a 8.50395,8.50395 0 1 1 -17.0079,0 8.50395,8.50395 0 1 1 17.0079,0 z"
+             fill="#ffffff"
+             fill-opacity="1"
+             id="path5836"
+             stroke="#000000"
+             stroke-dasharray="none"
+             stroke-opacity="1"
+             stroke-width="1.4"
+             style="stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4" />
+        </g>
+        <g
+           transform="translate(21.543,63.7797)"
+           id="g1019">
+          <path
+             d="m 93.5433,191.339 a 8.50395,8.50395 0 1 1 -17.0079,0 8.50395,8.50395 0 1 1 17.0079,0 z"
+             fill="#ffffff"
+             fill-opacity="1"
+             id="path5838"
+             stroke="#000000"
+             stroke-dasharray="none"
+             stroke-opacity="1"
+             stroke-width="1.4"
+             style="stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4" />
+        </g>
+        <g
+           transform="translate(42.5195,63.7797)"
+           id="g1022">
+          <path
+             d="m 93.5433,191.339 a 8.50395,8.50395 0 1 1 -17.0079,0 8.50395,8.50395 0 1 1 17.0079,0 z"
+             fill="#ffffff"
+             fill-opacity="1"
+             id="path5840"
+             stroke="#000000"
+             stroke-dasharray="none"
+             stroke-opacity="1"
+             stroke-width="1.4"
+             style="stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4" />
+        </g>
+        <g
+           fill="#000000"
+           fill-opacity="1"
+           font-size="16px"
+           id="text5941"
+           stroke="none"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;font-family:'OCR A Std';-inkscape-font-specification:'OCR A Std';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
+           xml:space="preserve">
+      <text
+   font-size="9.6px"
+   id="tspan5943"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans, Normal';font-size:9.6px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+   x="53.981899"
+   y="194.173"><tspan
+     sodipodi:role="line"
+     id="tspan1357">2</tspan></text>
+     </g>
+        <g
+           fill="#000000"
+           fill-opacity="1"
+           font-size="16px"
+           id="text5945"
+           stroke="none"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;font-family:'OCR A Std';-inkscape-font-specification:'OCR A Std';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
+           xml:space="preserve">
+      <text
+   font-size="9.6px"
+   id="tspan5947"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans, Normal';font-size:9.6px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+   x="53.981899"
+   y="215.433"><tspan
+     sodipodi:role="line"
+     id="tspan1359">7</tspan></text>
+     </g>
+        <g
+           fill="#000000"
+           fill-opacity="1"
+           font-size="16px"
+           id="text5949"
+           stroke="none"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;font-family:'OCR A Std';-inkscape-font-specification:'OCR A Std';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
+           xml:space="preserve">
+      <text
+   font-size="9.6px"
+   id="tspan5951"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';font-size:9.6px"
+   x="53.981899"
+   y="236.69299"><tspan
+     sodipodi:role="line"
+     id="tspan1363">5</tspan></text>
+     </g>
+        <g
+           fill="#000000"
+           fill-opacity="1"
+           font-size="16px"
+           id="text5953"
+           stroke="none"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;font-family:'OCR A Std';-inkscape-font-specification:'OCR A Std';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
+           xml:space="preserve">
+      <text
+   font-size="9.6px"
+   id="tspan5955"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans'"
+   x="53.981899"
+   y="257.953">4</text>
+     </g>
+        <g
+           fill="#000000"
+           fill-opacity="1"
+           font-size="16px"
+           id="text5957"
+           stroke="none"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;font-family:'OCR A Std';-inkscape-font-specification:'OCR A Std';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
+           xml:space="preserve">
+      <text
+   font-size="9.6px"
+   id="tspan5959"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans';font-size:9.6px"
+   x="85.039398"
+   y="290.55099"><tspan
+     sodipodi:role="line"
+     id="tspan1351">3</tspan></text>
+     </g>
+        <g
+           fill="#000000"
+           fill-opacity="1"
+           font-size="16px"
+           id="text5961"
+           stroke="none"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;font-family:'OCR A Std';-inkscape-font-specification:'OCR A Std';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
+           xml:space="preserve">
+      <text
+   font-size="9.6px"
+   id="tspan5963"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans, Normal';font-size:9.6px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+   x="106.298"
+   y="290.55099"><tspan
+     sodipodi:role="line"
+     id="tspan1353">1</tspan></text>
+     </g>
+        <g
+           fill="#000000"
+           fill-opacity="1"
+           font-size="16px"
+           id="text5965"
+           stroke="none"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;font-family:'OCR A Std';-inkscape-font-specification:'OCR A Std';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
+           xml:space="preserve">
+      <text
+   font-size="9.6px"
+   id="tspan5967"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans, Normal';font-size:9.6px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+   x="127.558"
+   y="290.55099"><tspan
+     sodipodi:role="line"
+     id="tspan1355">6</tspan></text>
+     </g>
+        <path
+           d="M 51.0236,191.339 H 42.51966"
+           fill="none"
+           id="path5969"
+           stroke="#000000"
+           stroke-dasharray="none"
+           stroke-opacity="1"
+           stroke-width="0.36"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;marker:none;enable-background:accumulate" />
+        <path
+           d="M 49.6063,212.598 H 42.51969"
+           fill="none"
+           id="path5971"
+           stroke="#000000"
+           stroke-dasharray="none"
+           stroke-opacity="1"
+           stroke-width="0.36"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;marker:none;enable-background:accumulate" />
+        <path
+           d="M 49.6063,233.858 H 42.51969"
+           fill="none"
+           id="path5973"
+           stroke="#000000"
+           stroke-dasharray="none"
+           stroke-opacity="1"
+           stroke-width="0.36"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;marker:none;enable-background:accumulate" />
+        <path
+           d="M 49.6063,255.118 H 42.51969"
+           fill="none"
+           id="path5977"
+           stroke="#000000"
+           stroke-dasharray="none"
+           stroke-opacity="1"
+           stroke-width="0.36"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;marker:none;enable-background:accumulate" />
+        <path
+           d="m 85.0394,297.638 v -5.66929"
+           fill="none"
+           id="path5981"
+           stroke="#000000"
+           stroke-dasharray="none"
+           stroke-opacity="1"
+           stroke-width="0.36"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;marker:none;enable-background:accumulate" />
+        <path
+           d="m 106.299,297.638 v -5.66929"
+           fill="none"
+           id="path5983"
+           stroke="#000000"
+           stroke-dasharray="none"
+           stroke-opacity="1"
+           stroke-width="0.36"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;marker:none;enable-background:accumulate" />
+        <path
+           d="m 127.559,297.638 v -5.66929"
+           fill="none"
+           id="path5985"
+           stroke="#000000"
+           stroke-dasharray="none"
+           stroke-opacity="1"
+           stroke-width="0.36"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;marker:none;enable-background:accumulate" />
+        <g
+           fill="#000000"
+           fill-opacity="1"
+           font-size="16px"
+           id="text6072"
+           stroke="none"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;font-family:'OCR A Std';-inkscape-font-specification:'OCR A Std';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
+           xml:space="preserve">
+      <text
+   font-size="14.4px"
+   id="tspan6074"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans'"
+   x="96.307899"
+   y="167.058">3x4 KEYPAD</text>
+     </g>
+      </g>
+    </g>
+  </g>
+</svg>
