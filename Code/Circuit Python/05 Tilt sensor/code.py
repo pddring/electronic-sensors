@@ -1,12 +1,25 @@
 """
 * Firmware:
- - Micropython 1.24.1
+ - Circuitpython 9.2.1
 * Hardware:
  - Raspberry Pi Pico v1
  - Piezo speaker
      GP21 			=> Speaker
+ - Keypad
+     Pin 1 (Col 2)	=> GP1
+     Pin 2 (Row 1)	=> GP2
+     Pin 3 (Col 1)	=> GP3
+     Pin 4 (Row 4)	=> GP4
+     Pin 5 (Row 3)	=> GP5
+     Pin 6 (Col 3)	=> GP6
+     Pin 7 (Row 2)	=> GP7
+ - Hit sensor
+     Pin 1 (Signal)	=> GP0
+     Pin 2 (VCC)	=> Power
+     Pin 3 (GND)	=> Ground
 * Description:
- Plays audio
+ Asks user to enter a 4 digit pin to disable alarm (correct pin is 1234)
+ If alarm is enabled it sounds if the tilt sensor detects vibrations
 """     
 
 import pwmio
